@@ -13,7 +13,7 @@ import ec.edu.intsuperior.modelo.Cilindro;
 public class Aplicacion {
     public static void main(String[] args){ 
         
-        Cilindro cil2 = new Cilindro
+        Cilindro cil2 = new Cilindro();
         
     }
     
