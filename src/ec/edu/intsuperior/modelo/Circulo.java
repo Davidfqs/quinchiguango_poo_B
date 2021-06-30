@@ -12,5 +12,31 @@ package ec.edu.intsuperior.modelo;
 public class Circulo {
     private Punto p;
     private Linea radio;
+
+    public Circulo() {
+    }
+
+    public Circulo(Punto p, Linea radio) {
+        this.p = p;
+        this.radio = radio;
+    }
+
+    public Punto getP() {
+        return p;
+    }
+
+    public void setP(Punto p) {
+        this.p = p;
+    }
+
+    public Linea getRadio() {
+        return radio;
+    }
+
+    public void setRadio(Linea radio) {
+        this.radio = radio;
+    }
+    
+    
     
 }
